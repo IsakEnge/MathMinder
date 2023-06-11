@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Math Operations</title>
+  <link rel="stylesheet" href="styles.css">
+  <script>
+    function goToDifficulty() {
+      window.location.href = 'difficulty.html';
+    }
+  </script>
+</head>
+<body>
+  <h1>Select Math Operations</h1>
+
+  <form>
+    <div class="checkbox-container">
+      <input type="checkbox" id="additionCheckbox" name="mathOperation" value="addition">
+      <label for="additionCheckbox">Addition</label>
+    </div>
+
+    <div class="checkbox-container">
+      <input type="checkbox" id="subtractionCheckbox" name="mathOperation" value="subtraction">
+      <label for="subtractionCheckbox">Subtraction</label>
+    </div>
+
+    <div class="checkbox-container">
+      <input type="checkbox" id="multiplicationCheckbox" name="mathOperation" value="multiplication">
+      <label for="multiplicationCheckbox">Multiplication</label>
+    </div>
+
+    <div class="checkbox-container">
+      <input type="checkbox" id="divisionCheckbox" name="mathOperation" value="division">
+      <label for="divisionCheckbox">Division</label>
+    </div>
+
+    <!-- Additional Math Operations -->
+    <div class="checkbox-container">
+      <input type="checkbox" id="shapesCheckbox" name="mathOperation" value="shapes">
+      <label for="shapesCheckbox">Shapes</label>
+    </div>
+
+    <div class="checkbox-container">
+      <input type="checkbox" id="patternsCheckbox" name="mathOperation" value="patterns">
+      <label for="patternsCheckbox">Patterns</label>
+    </div>
+
+    <div class="checkbox-container">
+      <input type="checkbox" id="fractionsCheckbox" name="mathOperation" value="fractions">
+      <label for="fractionsCheckbox">Fractions</label>
+    </div>
+
+    <div class="checkbox-container">
+      <input type="checkbox" id="decimalsCheckbox" name="mathOperation" value="decimals">
+      <label for="decimalsCheckbox">Decimals</label>
+    </div>
+
+    <div class="checkbox-container">
+      <input type="checkbox" id="percentagesCheckbox" name="mathOperation" value="percentages">
+      <label for="percentagesCheckbox">Percentages</label>
+    </div>
+
+    <div class="checkbox-container">
+      <input type="checkbox" id="exponentsCheckbox" name="mathOperation" value="exponents">
+      <label for="exponentsCheckbox">Exponents</label>
+    </div>
+
+    <div class="checkbox-container">
+      <input type="checkbox" id="ratiosCheckbox" name="mathOperation" value="ratios">
+      <label for="ratiosCheckbox">Ratios</label>
+    </div>
+
+    <div class="checkbox-container">
+      <input type="checkbox" id="scientificNotationCheckbox" name="mathOperation" value="scientificNotation">
+      <label for="scientificNotationCheckbox">Scientific Notation</label>
+    </div>
+
+    <div class="checkbox-container">
+      <input type="checkbox" id="formulasCheckbox" name="mathOperation" value="formulas">
+      <label for="formulasCheckbox">Formulas</label>
+    </div>
+
+    <div class="s1"></div>
+
+    <center>
+        <button class="difficulty" onclick="window.location.href = '/difficulty.html';">
+            <span class="circle" aria-hidden="true">
+            <span class="icon arrow"></span>
+            </span>
+            <span class="button-text">Difficulty</span>
+        </button>
+    </center>
+
+
+  <script src="script.js"></script>
+</body>
+</html>
