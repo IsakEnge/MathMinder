@@ -1,1 +1,1 @@
-# MathMinder
+# MathMindr
