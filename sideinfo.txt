@@ -1,6 +1,6 @@
-Farger
-  Pale Blue: #B2DFDB
-  Soft Gray: #ECEFF1
-  Light Mint Green: #C5E1A5
-  Creamy Yellow: #FFF9C4
-  Subtle Lavender: #E1BEE7
+Farger:
+  Tekst:
+    Headline
+  Knapper:
+    Bakrunnfarge: #333333
+    Hover Farge: #6B7B8C
